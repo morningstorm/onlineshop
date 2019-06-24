@@ -12,6 +12,7 @@ public class TbOrder {
   private String address;
   private long auserId;
 
+
   public TbOrder(long id, double amount, long status, Timestamp orderdate, String message, String address, long auserId) {
     this.id = id;
     this.amount = amount;

@@ -10,6 +10,7 @@ public class TbCart {
   private double price;
   private long status;
 
+
   public TbCart(long id, long auserId, long goodsId, long num, double price, long status) {
     this.id = id;
     this.auserId = auserId;

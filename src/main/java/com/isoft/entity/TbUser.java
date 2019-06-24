@@ -14,6 +14,7 @@ public class TbUser {
   private String _Uemail;
   private java.sql.Date birthday;
 
+
   public TbUser(long id, String uname, String upass, String usex, String umobile, String uaddress, String _Uemail, Date birthday) {
     this.id = id;
     this.uname = uname;

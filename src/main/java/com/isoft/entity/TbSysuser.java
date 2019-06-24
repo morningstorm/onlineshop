@@ -72,6 +72,7 @@ public class TbSysuser {
     this.srole = srole;
   }
 
+
   @Override
   public String toString() {
     return "TbSysuser{" +

@@ -28,6 +28,7 @@ public class TbType {
     this.lbname = lbname;
   }
 
+
   @Override
   public String toString() {
     return "TbType{" +

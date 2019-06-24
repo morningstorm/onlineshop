@@ -13,6 +13,7 @@ public class TbGoods {
 
   private TbGoods(){}
 
+
   public TbGoods(long id, String gname, double gprice, String gpicture, String gmessage, long gstatus, long typeId) {
     this.id = id;
     this.gname = gname;
