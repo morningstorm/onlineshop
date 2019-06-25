@@ -12,7 +12,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="kindergarten" target="1.8" />
-      <module name="onlineshop" target="1.8" />
+      <module name="onlineshop" target="6" />
     </bytecodeTargetLevel>
   </component>
 </project>

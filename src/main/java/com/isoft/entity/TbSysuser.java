@@ -19,6 +19,10 @@ public class TbSysuser {
     this.srole = srole;
   }
 
+  public TbSysuser() {
+
+  }
+
   public long getId() {
     return id;
   }

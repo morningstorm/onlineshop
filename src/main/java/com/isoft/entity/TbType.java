@@ -6,6 +6,7 @@ public class TbType {
   private long id;
   private String lbname;
 
+  public TbType(){}
   public TbType(long id, String lbname) {
     this.id = id;
     this.lbname = lbname;
