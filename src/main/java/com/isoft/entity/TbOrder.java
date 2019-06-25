@@ -1,5 +1,6 @@
 package com.isoft.entity;
 
+
 import java.sql.Timestamp;
 
 public class TbOrder {
@@ -7,12 +8,13 @@ public class TbOrder {
   private long id;
   private double amount;
   private long status;
-  private java.sql.Timestamp orderdate;
+  private Timestamp orderdate;
   private String message;
   private String address;
   private long auserId;
 
-public TbOrder(){}
+  public TbOrder() {
+  }
 
   public TbOrder(long id, double amount, long status, Timestamp orderdate, String message, String address, long auserId) {
     this.id = id;
@@ -51,11 +53,11 @@ public TbOrder(){}
   }
 
 
-  public java.sql.Timestamp getOrderdate() {
+  public Timestamp getOrderdate() {
     return orderdate;
   }
 
-  public void setOrderdate(java.sql.Timestamp orderdate) {
+  public void setOrderdate(Timestamp orderdate) {
     this.orderdate = orderdate;
   }
 

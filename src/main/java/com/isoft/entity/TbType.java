@@ -6,7 +6,9 @@ public class TbType {
   private long id;
   private String lbname;
 
-  public TbType(){}
+  public TbType() {
+  }
+
   public TbType(long id, String lbname) {
     this.id = id;
     this.lbname = lbname;
@@ -28,7 +30,6 @@ public class TbType {
   public void setLbname(String lbname) {
     this.lbname = lbname;
   }
-
 
   @Override
   public String toString() {

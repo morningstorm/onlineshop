@@ -1,6 +1,5 @@
 package com.isoft.entity;
 
-
 import java.sql.Date;
 
 public class TbUser {
@@ -12,9 +11,11 @@ public class TbUser {
   private String umobile;
   private String uaddress;
   private String _Uemail;
-  private java.sql.Date birthday;
+  private Date birthday;
 
-  public TbUser(){}
+  public TbUser() {
+  }
+
   public TbUser(long id, String uname, String upass, String usex, String umobile, String uaddress, String _Uemail, Date birthday) {
     this.id = id;
     this.uname = uname;
@@ -89,11 +90,11 @@ public class TbUser {
   }
 
 
-  public java.sql.Date getBirthday() {
+  public Date getBirthday() {
     return birthday;
   }
 
-  public void setBirthday(java.sql.Date birthday) {
+  public void setBirthday(Date birthday) {
     this.birthday = birthday;
   }
 

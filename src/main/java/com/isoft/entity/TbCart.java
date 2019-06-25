@@ -7,18 +7,19 @@ public class TbCart {
   private long auserId;
   private long goodsId;
   private long num;
-  private double price;
   private long status;
+  private long orderId;
 
-  public TbCart(){}
+  public TbCart() {
+  }
 
-  public TbCart(long id, long auserId, long goodsId, long num, double price, long status) {
+  public TbCart(long id, long auserId, long goodsId, long num, long status, long orderId) {
     this.id = id;
     this.auserId = auserId;
     this.goodsId = goodsId;
     this.num = num;
-    this.price = price;
     this.status = status;
+    this.orderId = orderId;
   }
 
   public long getId() {
@@ -57,21 +58,21 @@ public class TbCart {
   }
 
 
-  public double getPrice() {
-    return price;
-  }
-
-  public void setPrice(double price) {
-    this.price = price;
-  }
-
-
   public long getStatus() {
     return status;
   }
 
   public void setStatus(long status) {
     this.status = status;
+  }
+
+
+  public long getOrderId() {
+    return orderId;
+  }
+
+  public void setOrderId(long orderId) {
+    this.orderId = orderId;
   }
 
   @Override
@@ -81,8 +82,8 @@ public class TbCart {
             ", auserId=" + auserId +
             ", goodsId=" + goodsId +
             ", num=" + num +
-            ", price=" + price +
             ", status=" + status +
+            ", orderId=" + orderId +
             '}';
   }
 }

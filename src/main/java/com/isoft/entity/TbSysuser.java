@@ -10,6 +10,9 @@ public class TbSysuser {
   private long status;
   private long srole;
 
+  public TbSysuser() {
+  }
+
   public TbSysuser(long id, String sname, String spass, String smobile, long status, long srole) {
     this.id = id;
     this.sname = sname;
@@ -17,10 +20,6 @@ public class TbSysuser {
     this.smobile = smobile;
     this.status = status;
     this.srole = srole;
-  }
-
-  public TbSysuser() {
-
   }
 
   public long getId() {
@@ -75,7 +74,6 @@ public class TbSysuser {
   public void setSrole(long srole) {
     this.srole = srole;
   }
-
 
   @Override
   public String toString() {

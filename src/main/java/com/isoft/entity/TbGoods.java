@@ -11,8 +11,8 @@ public class TbGoods {
   private long gstatus;
   private long typeId;
 
-  private TbGoods(){}
-
+  public TbGoods() {
+  }
 
   public TbGoods(long id, String gname, double gprice, String gpicture, String gmessage, long gstatus, long typeId) {
     this.id = id;
